@@ -1,0 +1,38 @@
+.blogger-image {
+  height: 320px;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+.blogger-card {
+  min-width: 290px;
+  background-color: #fff;
+  z-index: 1;
+}
+.blogger-card:hover .blogger-shadow {
+  box-shadow: inset 0 -5px 0 #fe8700;
+  display: flex;
+}
+.blogger-shadow {
+  display: flex;
+}
+.blogger-card:hover {
+  cursor: pointer;
+}
+.blogger-name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 19px;
+}
+.blogger-card:hover .blogger-name {
+  color: #fe8700;
+}
+.blogger-company {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.blogger-card:hover .blogger-company {
+  color: #fe8700;
+}

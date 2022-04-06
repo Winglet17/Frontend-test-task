@@ -1,0 +1,12 @@
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.post-block {
+  display: flex;
+  gap: 34px;
+  align-items: flex-start;
+  margin-left: 190px;
+  position: relative;
+}

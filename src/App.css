@@ -1,0 +1,17 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  padding: 64px 96px 125px 61px;
+}
+
+.header-post {
+  margin: 0;
+  margin-bottom: 27px;
+  font-size: 48px;
+}
+.design {
+  position: absolute;
+  left: -250px;
+  bottom: -10px;
+}
